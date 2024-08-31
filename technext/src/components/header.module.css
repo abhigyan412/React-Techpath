@@ -1,0 +1,78 @@
+.header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    padding: 22px 70px 11px;
+    font: 700 16px Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding: 0 20px;
+    }
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    max-width: 1150px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  .logo {
+    aspect-ratio: 2.49;
+    object-fit: contain;
+    object-position: center;
+    width: 97px;
+  }
+  
+  .navContainer {
+    display: flex;
+    align-items: start;
+    gap: 40px 44px;
+    color: #131313;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 991px) {
+    .navContainer {
+      max-width: 100%;
+      color: #131313;
+    }
+  }
+  
+  .navLink {
+    align-self: stretch;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .activeLink {
+    color: #e67e08;
+  }
+  
+  .callButton {
+    align-self: stretch;
+    border-radius: 6px;
+    background-color: #131313;
+    gap: 10px;
+    color: #fff;
+    padding: 10px 24px;
+  }
+  
+  @media (max-width: 991px) {
+    .callButton {
+      padding: 0 20px;
+    }
+  }
