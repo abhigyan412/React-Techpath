@@ -91,7 +91,7 @@ function NewAdventure() {
                         color: 'black',
                         textAlign: 'center',
                         borderRadius: '8px',
-                        opacity: 0.5
+                        opacity: 0.4
                       }}
                     >
                       <h3>{item.name}</h3>
