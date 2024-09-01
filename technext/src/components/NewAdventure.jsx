@@ -57,6 +57,7 @@ function NewAdventure() {
             <div className={styles.rightColumn}>
 
               <div className="container">
+              {items.length > 0 && 
                 <StackedCarousel height={containerHeight}>
                 {items.map(item => (
                   <div
@@ -100,6 +101,7 @@ function NewAdventure() {
                   </div>
                    ))}
                   </StackedCarousel>
+}
 
               </div>
             </div>
